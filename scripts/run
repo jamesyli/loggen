@@ -1,0 +1,3 @@
+#!/bin/bash
+
+java -server -Xms1G -Xmx1G -Xss256k -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -Dllnw.loggen.conf=../config/lg.conf -classpath "../lib/LogGenerator.jar" org.jli.loggen.LogGenerator
